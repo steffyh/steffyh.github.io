@@ -1,0 +1,80 @@
+/* Your Website Styles */
+body { 
+	background: url("../img/pattern.png") #D54F2A;
+}
+
+nav {	
+ 		margin-top: 30px;
+  		text-align: right;
+		padding-top: 50px 50px 50px 50px;
+		text-decoration: none;
+	}
+h1{
+	color:black;
+	font-family: 'Miltonian', cursive;
+}
+h2{
+	margin-left: 10px;
+	font-family: 'Gravitas One', cursive;
+	color: black;
+}
+h3{
+	font-family: 'Miltonian', cursive;
+	color:black;
+	margin-top: 60px;
+	margin-left: 10px;
+}
+h4{
+	color: #FCF2E6;
+	margin-left: 10px;
+}
+p{
+	padding:10px;
+	color:#F4BDB8
+}
+div{
+	color:#F4BDB8;
+}
+ul{
+	color:#F4BDB8;
+}
+li{
+	color:#F4BDB8;
+}
+
+img{
+padding: 15px;
+	max-height: 350px;
+border: 10px double black;
+	margin-right:25 ;
+	height: 100%;
+		width: 450px;
+margin-top: 60px;
+		border: 10px double black;
+		float: left;
+	}
+
+a {	color: pink;
+
+  	text-decoration: none;
+	font-family: 'Ribeye Marrow', cursive;
+	margin: 50px 95px;
+	padding-top: 1000px;}
+
+#name{
+	margin-right: 30px;
+	margin-left: 25px;
+	margin-top: 60px;
+}
+
+.container{
+	margin-bottom: 40px;
+	margin-top:60px;
+	background: rgb(156, 158, 157);
+box-shadow: #FCF2E6 0px 0px 1px 10px;
+border-radius: 15px;
+}
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}

@@ -1,0 +1,109 @@
+/* Your Website Styles */
+body { 
+	background: url("../img/bg.png") #D54F2A;
+}
+.container{
+box-shadow: 0px 0px 1px 10px #FCF2E6;
+border-radius: 15px;}
+
+nav {	
+  		margin-top: 30px;
+  		text-align: left;
+		padding-top: 50px 50px 50px 50px;
+		text-decoration: none;
+	}
+img{
+	padding: 15px;
+	max-height: 350px;
+border: 10px double grey;
+	margin-right:25 ;
+	height: 350px;
+		width: 300px;
+margin-top: 60px;
+		border: 10px double grey;
+		margin:right ;
+
+}
+
+h1 { 
+	background: gray;
+	font-family: 'Miltonian', cursive;
+	color:pink;
+	font-style: bold;
+	padding:30px;
+	border: 10px  black double;
+	margin:90px;
+
+
+}
+
+h2{
+	background: gray;
+	font-family: 'Miltonian', cursive;
+	color:pink;
+	font-style: bold;
+	padding:10px;
+	border: 10px  black double;
+}
+
+h3 { 
+
+background: pink;
+padding:6px; 
+margin: 20px 25px 10px 0;
+color: gray double; 
+border: black 4px solid;
+
+}
+
+h4{
+	font-family: 'Ribeye Marrow',;
+	margin:20px;
+}
+#name{
+	color: pink;
+	padding: 20px;
+	font-size: 40px;
+	width:355px;
+}
+
+#leadin{
+	color: white;
+}
+.subhead{
+	font-style: italic;
+}
+
+ p{
+ 	padding:5px;
+ line-height: 30px;
+  background: pink;
+  border: black 4px solid;
+}
+h2{
+	 line-height: 40px;
+ color:black;
+  width: 440px;
+  padding: 40px;
+ margin: 25px;
+  top: 10px;
+  right: 14px;
+}
+
+  
+
+
+
+  a {	color: pink;
+  	text-decoration: none;
+	font-family: 'Ribeye Marrow', cursive;
+	margin: 50px 100px 50px 100px;
+	padding-top: 1000px;}
+
+
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}

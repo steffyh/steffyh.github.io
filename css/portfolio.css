@@ -1,0 +1,121 @@
+/* Your Website Styles */
+
+body {
+  background-color: #030003;
+  background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
+  background-color: black;
+  margin: 0px;
+ font-family: 'Gravitas+One' , cursive;
+}
+header{
+  margin: 50px 100px;
+      text-align: right;
+    padding-top: 50px 50px 50px 50px;
+    text-decoration: none;
+}
+nav { 
+      margin: 50px 100px;
+      text-align: right;
+    padding-top: 50px 50px 50px 50px;
+    text-decoration: none;
+  }
+
+div#background {
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+}
+
+div#gallery {
+  width: 800px;
+  margin: auto;
+}
+
+
+#background img {
+  height: 150px;
+  margin: 0px;
+}
+
+#background figure {
+  float: left;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 2px 3px black;
+}
+
+figure.pic1 {
+  border-radius: 8px;
+  transform : rotate(-10deg);
+}
+
+figure.pic2 {
+  border-radius: 8px;
+  transform : rotate(15deg);
+}
+
+figure.pic3 {
+  color:black;
+  border-radius: 8px;
+  transform : rotate(-25deg);
+}
+
+figure.pic4 {
+  border-radius: 8px;
+  transform : rotate(10deg);
+}
+
+figure.pic5{ 
+    border-radius: 8px;
+  transform : rotate(-6deg);
+}
+
+figure.pic6 {
+  border-radius: 8px;
+  transform : rotate(2deg);
+
+}
+
+figure.pic7 {
+  border-radius: 8px;
+  transform : rotate(-20deg);
+ 
+}
+
+
+.figure {
+   font-size:.66em ;
+  position: absolute;
+  bottom: -60px;
+  transition: bottom 1s;
+  background-color: black;
+}
+
+ a {  color: pink;
+    text-decoration: none;
+  font-family: 'Ribeye Marrow', cursive;
+  margin: 50px 100px 50px 100px;
+  padding-top: 1000px;}
+
+#background figure:hover {
+color:white;
+background-color: black;
+  box-shadow: 20px 20px 100px black;
+  transform: scale(1.2,2.1);
+  z-index: 20;
+font-family: 'Miltonian' , cursive;
+}
+
+/* Gallery Stying */
+
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}

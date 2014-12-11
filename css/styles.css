@@ -1,0 +1,99 @@
+/* Primary Hearder*/
+body{
+	padding-left: 40px;
+	background-color: grey; }
+
+
+
+ a {	color: pink;
+  	text-decoration: none;
+	font-family: 'Ribeye Marrow', cursive;
+	margin: 34px 55px 50px 76px;
+	padding-top: 1000px;}
+	}
+
+h1{
+	color: teal;
+	text-align: left;
+	font-family: 'Miltonian' , cursive;
+}
+h2{
+	color: #cc6ec9;
+	font-family: 'Gravitas+One' , cursive;
+}
+
+h3{
+	color: #cc6ec9;
+	font-family: 'Gravitas+One' , cursive;
+}
+/* Body text*/
+
+p{
+	font-family: 'Rambla', sans-serif;
+	line-height:,75em;	
+	color: black;
+}
+
+a:link,
+a:visited{  
+	border-bottom: double black :2px;
+	padding: 1em;
+	text-transform: uppercase;
+}
+
+a:hover
+a:hover{
+
+}
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+/*color pallete*/
+.color-1{
+	background:  teal;
+}
+.color-2{
+	background: #cc6ec9;
+}
+.color-3{
+	background: black;
+}
+/* textures*/
+.pattern-1{
+	background: url("../img/swirl_pattern.png");
+}
+
+.pattern-2{
+	background-image: url(http://www.transparenttextures.com/patterns/diagmonds.png);}
+
+.pattern-3{
+	background: url("../img/black-thread-light.png");
+
+}
+
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
